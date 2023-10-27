@@ -19,9 +19,9 @@ puts shuffled_string
 
 
 puts("3 задание")
-person1 = { :first => "Имя1", :last => "Фамилия1" }
-person2 = { :first => "Имя2", :last => "Фамилия2" }
-person3 = { :first => "Имя3", :last => "Фамилия3" }
+person1 = { :first => "Арк", :last => "К" }
+person2 = { :first => "Л", :last => "Н" }
+person3 = { :first => "Д", :last => "К" }
 
 # Создаем хэш params и устанавливаем значения :father, :mother и :child
 params = {
