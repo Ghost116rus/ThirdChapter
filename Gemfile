@@ -9,6 +9,14 @@ gem 'bootstrap-sass'
 
 gem 'bcrypt'
 
+gem 'webpacker'
+
+# gem 'rails-ujs'
+
+# gem 'turbolinks'
+
+# gem 'activestorage'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 

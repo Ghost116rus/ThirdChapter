@@ -11,7 +11,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
         name:  "",
         email: "user@invalid",
         password:              "foo",
-        password_confirmation: "bar" 
+        password_confirmation: "bar"
       }
       post users_path, params: { user: user_params }
     end
@@ -27,9 +27,10 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
         password: "password",
         password_confirmation: "password"
       }
-      post users_path, params: { user: user_params } 
+      post users_path, params: { user: user_params }
       follow_redirect!
     end
     assert_template 'users/show'
+    assert is_logged_in?
   end
 end
